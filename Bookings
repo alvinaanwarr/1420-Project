@@ -1,1 +1,28 @@
-
+src/
+│
+├── model/
+│   ├── User.java
+│   ├── Student.java
+│   ├── Staff.java
+│   ├── Guest.java
+│   ├── Event.java
+│   ├── Workshop.java
+│   ├── Seminar.java
+│   ├── Concert.java
+│   └── Booking.java
+│
+├── manager/
+│   ├── UserManager.java
+│   ├── EventManager.java
+│   ├── BookingManager.java
+│   └── WaitlistManager.java
+│
+├── ui/
+│   ├── MainApp.java
+│   ├── MainMenuPanel.java
+│   ├── UserPanel.java
+│   ├── EventPanel.java
+│   ├── BookingPanel.java
+│   └── WaitlistPanel.java
+│
+└── Main.java
