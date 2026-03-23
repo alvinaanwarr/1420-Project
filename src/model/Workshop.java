@@ -10,7 +10,8 @@ public class Workshop extends Event {
     private String topic;
 
     public Workshop(String eventId, String title, LocalDateTime dateTime,
-                    String location, int capacity, String topic) {
+                    String location, int capacity, String topic) {  // adds its own specific field, which is topic
+
         super(eventId, title, dateTime, location, capacity);
         this.topic = topic;
     }
@@ -19,7 +20,7 @@ public class Workshop extends Event {
         return topic;
     }
 
-    @Override
+    @Override // Returns the specific type of this event so the system knows it is a Workshop
     public String getEventType() {
         return "Workshop";
     }
